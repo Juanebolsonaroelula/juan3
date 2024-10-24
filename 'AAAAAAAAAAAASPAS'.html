@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão de Alerta - Laele</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            margin-top: -50px; /* Move o título 50px para cima */
+            font-size: 36px;
+        }
+
+        button {
+            padding: 30px;
+            font-size: 40px;
+            background-color: #B22222;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease, background-color 0.3s ease; /* Animação suave */
+        }
+
+        button:hover {
+            background-color: #000000;
+            transform: rotate(10deg) scale(1.1); /* Gira o botão e aumenta de tamanho */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Titulo grandao</h1>
+
+    <button onclick="exibirAlerta()">Laele</button>
+
+    <script>
+        function exibirAlerta() {
+            alert('Ela nao vai voltar irmão, esquece');
+        }
+    </script>
+
+    <a href="https://istoe.com.br/wp-content/uploads/2020/12/73.jpg">Visitar o site</a>
+
+</body>
+</html>
